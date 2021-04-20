@@ -1,0 +1,1 @@
+cd "C:\Users\Admin\Desktop\CODE" & gradle clean & gradle fatJar & copy "C:\Users\Admin\Desktop\CODE\build\libs\code_editor-all-1.0.jar" "C:\Users\Admin\Desktop" & cd.. & cd "C:\Users\Admin\Downloads\sqa-mob-agent-win" & gradle build & gradle run  & cd "C:\Users\Admin\Desktop\CODE"
